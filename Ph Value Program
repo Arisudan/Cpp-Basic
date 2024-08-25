@@ -1,0 +1,35 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+        int pH;
+        cout<<"Enter the pH value"<<endl;
+        cin>>pH;
+        //int acidic,basic,high,low;
+        if(pH>=0&&pH<=6)
+        {
+            cout<<"Acidic"<<endl;
+        }
+        if(pH>=8&&pH<=14){
+            cout<<"Basic"<<endl;
+        }
+        if(pH>=3&&pH<=6)
+        {
+                cout<<"Low acidic water"<<endl;
+        }
+        if(pH>=0&&pH<=2)
+        {
+            cout<<"High acidic water"<<endl;
+        }
+        if(pH>=8&&pH<=10)
+        {
+            cout<<"Low Basic Water"<<endl;
+        }
+        if(pH>=11&&pH<=14)
+        {
+            cout<<"High Basic Water"<<endl;
+        }
+        else if(pH==7){
+                cout<<"Normal Water";
+            }
+    }
+    //return 0;
