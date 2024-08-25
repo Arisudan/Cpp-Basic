@@ -1,0 +1,9 @@
+#include <bit/stdc++.h>
+using namespace std ;
+int main(){
+        int a=5,b=7;
+       // b=(b+a)-(a=b);
+        // a=(a+b)-(b=a);
+        cout<<"The swap out is: "<< a<<endl;
+        cout<<"The swap out is: "<< b<<endl;
+    }
