@@ -1,0 +1,14 @@
+#include<bits/stdc++.h>
+using namespace std;
+    int main()
+{
+        double x=((2.0/5)*(-3.0/7)-(1.0/14)-(3.0/7)*(3*5));
+        double y=((2.0/5)*-3.0/7-1.0/14-(3.0/7)*(3*5));
+        double z=((2.0/5*-3.0/7)-(1.0/14-3.0/7)*(3.0*5));
+{
+    cout<<"The value of X is "<<x<<endl;
+    cout<<"The value of Y is "<<y<<endl;
+    cout<<"The value of Z is "<<z<<endl;
+}
+return 0;
+    }
