@@ -1,0 +1,31 @@
+#include<bits/stdc++.h>
+using namespace std ;
+int main() {
+char gender;
+float salary, newSalary;
+cout << "Enter Male or Female: ";
+cin >> gender;
+cout << "Enter salary: ";
+cin >> salary;
+if (gender == 'M' || gender=='m') 
+   { 
+    if (salary <= 10000)
+       newSalary = salary + (salary * 0.07);
+    else
+        newSalary = salary + (salary * 0.05);
+    }
+else if (gender =='F'||gender=='f') 
+    { 
+        if (salary <= 10000)
+            newSalary = salary + (salary * 0.12);
+        else
+            newSalary = salary + (salary * 0.10);
+    } else {
+        cout << "Invalid input." << endl;
+        return 1; 
+    }
+
+    cout << "The new salary is: " << newSalary << endl;
+
+    return 0;
+}
