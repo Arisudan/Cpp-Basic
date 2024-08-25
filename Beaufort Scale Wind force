@@ -1,0 +1,25 @@
+#include<bits/stdc++.h>
+using namespace std ;
+int main() {
+int W;
+cout<<"Enter wind speed: "<<endl;
+cin>>W;
+if(W<1){
+    cout<<"Calm"<<endl;
+}
+else if(W>=1&&W<=3){
+    cout<<"Light Air"<<endl; 
+}
+else if(W>=4&&W<=27){
+        cout<<"Breeze"<<endl;
+}
+else if(W>=28&&W<=47){
+        cout<<"Gale"<<endl;
+}
+else if(W>=48&&W<=63){
+        cout<<"Strom"<<endl;
+}
+else if(W>=63){
+        cout<<"Hurricane"<<endl;
+}
+}
