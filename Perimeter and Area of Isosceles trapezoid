@@ -1,0 +1,16 @@
+#include <bit/stdc++.h>
+using namespace std ;
+int main(){
+        int w,b1,b2,h;
+        cout<<"Enter the width: "<<endl;
+        cin>> w;
+        cout<<"Enter the breath1 and breath2: "<<endl;
+        cin>>b1>>b2;
+        cout<<"Enter the height: "<<endl;
+        cin>>h;
+        int perimeter = (2*w)+b1+b2;
+        double area = 0.5 * h * (b1+b2);
+        cout<<"The perimeter is:"<<perimeter<<endl;
+        cout<<"The area is:"<<area<<endl;
+        return 0;
+    }
