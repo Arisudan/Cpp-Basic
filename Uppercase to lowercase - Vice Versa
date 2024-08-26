@@ -1,0 +1,19 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    string input,output;
+    cout<<"give the input: ";
+    cin>>input;
+       ** for (char c : input) {
+        if (islower(c)) {
+            output += toupper(c);  // Convert lowercase to uppercase
+        } else {
+            output += tolower(c);  // Convert uppercase to lowercase
+        }
+    }**
+     //for (char c : input){ 
+     //output += tolower(c);
+     //}
+    //output=tolower(input);
+    cout<<"Output is: "<<output;
+}
