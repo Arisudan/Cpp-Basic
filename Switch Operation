@@ -1,0 +1,46 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    long int a,b,c;
+    char operation;
+    int largest,smallest;
+    cout<<"Enter Three Numbers: ";
+    cin>>a>>b>>c;
+    cout<<"Enter The operation to do: ";
+    cin>>operation;
+    switch(operation){
+        
+    case 'S'://sum
+    case's':
+    cout<<"Result: "<<a+b+c<<endl;
+    break;
+    
+    case 'A':
+    case'a'://Average
+    cout<<"Result: "<<(a+b+c)*3.0<<endl;
+    break;
+    
+    case'L':
+    case'l'://larger of the Numbers
+    if(a>=b&&a>=c)
+    cout<<"a is largest of three numbers"<<endl;
+    else if(b>=a&&b>=c)
+    cout<<"b is largest of three numbers"<<endl;
+    else
+    cout<<"c is largest of three"<<endl;
+    break;
+    
+    case'M':
+    case'm'://Smallest of the Numbers
+    if(a<=b&&a<=c)
+    cout<<"a is smallest of three numbers"<<endl;
+    else if(b<=a&&b<=c)
+    cout<<"b is smallest of three numbers"<<endl;
+    else
+    cout<<"c is smallest of three"<<endl;
+    break;
+    
+    default:
+            cout<<"Invalid Operation"<<endl;
+    }
+}
