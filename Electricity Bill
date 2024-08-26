@@ -1,0 +1,16 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int units;
+    cout<<"Enter the units: ";
+    cin>> units;
+    float ans;
+    ans=(units>=0&&units<=400)?100+(units*4.80):
+    (units>=401&&units<=500)?125+(units*6.45):
+    (units>=501&&units<=600)?200+(units*8.55):
+    (units>=601&&units<=800)?200+(units*9.65):
+    (units>=801&&units<=1000)?250+(units*10.70):
+    (units>1000)?250+(units*11.80):0;
+    cout<<"The bill for this month is: "<<ans<<endl;
+    return 0;
+}
