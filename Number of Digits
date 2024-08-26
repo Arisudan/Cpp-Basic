@@ -1,0 +1,21 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+int digit;
+cout<<"Enter a number: ";
+cin>>digit;
+if(digit>=0&&digit<=9){
+    cout<<"Single Digit"<<endl;
+}
+else if(digit>=10&&digit<=99){
+    cout<<"Two Digit"<<endl;
+}
+else if(digit>=100&&digit<=999){
+    cout<<"Two Digit"<<endl;
+}
+else {
+    cout<<"Digit Exceeded"<<endl;
+}
+    return 0;
+}
